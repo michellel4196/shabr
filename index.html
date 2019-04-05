@@ -7,7 +7,8 @@
     <title>Title</title>
     <!-- Latest compiled and minified CSS -->
 
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -30,12 +31,18 @@
 
 
         #info {}
-        
-        p.comment{
-            background-color: lightgray;
+
+        h1.text-center {
+            background-color: lightblue;
             padding: 10px;
+            font-family: 'Merriweather', serif;
         }
-        
+
+        p.comment {
+            background-color: lightgray;
+            padding: 15px;
+            font-family: 'Raleway', sans-serif;
+        }
     </style>
 </head>
 
@@ -48,7 +55,7 @@
                 <h2> Ride with the wind. <span><strong>Dance with the wind</strong>.</span></h2>
         </div>
     </div>
-    
+
     <nav class="navbar navbar-expand-md navbar-light bg-light">
 
         <a class="navbar-brand" href="#"></a>
@@ -62,32 +69,34 @@
                 </li>
                 <li class="nav-item active ">
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#info">Info</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#gallery">Gallery</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#info">Info</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
             </ul>
         </div>
     </nav>
 
 
-    <div  class="jumbotron">
+    <div class="jumbotron">
         <h1 class="display-4"><strong>FUN FOR EVERYONE</strong></h1>
         <p>Come make a new memory with us. There's nothing else like it.</p>
         <p>Fun for both adults and kids. All welcome!</p>
         <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
     </div>
 
-    <div id="info" class="container-fluid">
+    <div class="container-fluid">
         <h1 class="text-center vert-center">Info</h1>
+    </div>
+    <div id="info" class="container">
         <br>
         <h3>All the information you'll need</h3>
         <div class="row">
@@ -115,9 +124,11 @@
         </div>
 
     </div>
-
-    <div id="gallery" class="container">
+    <div class="container-fluid">
         <h1 class="text-center">Gallery</h1>
+    </div>
+    <div id="gallery" class="container">
+
         <div id="balloonimg" class="carousel slide" data-ride="carousel">
 
             <!-- Wrapper for slides -->
@@ -165,41 +176,48 @@
     </div>
 
 
-    <div class="container">
+    <div class="container-fluid">
         <h1 class="text-center vert-center">Testimonials</h1>
-        <h3>Just a few of our happy customers</h3>
-        <div class="row">
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"<br> -- Joan H.</p>
-            </div>
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."<br> -- Marsha N.</p>
-            </div>
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"Thanks so much for making our experience so perfect. I definitely want to go back again!"<br> -- Linda T.</p>
-            </div>
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"<br> -- Tammy P.</p>
-            </div>
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"<br> -- Ethel E.</p>
-            </div>
-            <div class="col-md-4 col-lg-2">
-                <p class="comment">"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"<br> -- Mary C.</p>
-            </div>
+        <div class="container">
+            <h3>Just a few of our happy customers</h3>
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"<br> -- Joan H.</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."<br> -- Marsha N.</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"Thanks so much for making our experience so perfect. I definitely want to go back again!"<br> -- Linda T.</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"<br> -- Tammy P.</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"<br> -- Ethel E.</p>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <p class="comment">"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"<br> -- Mary C.</p>
+                </div>
 
+            </div>
         </div>
+
     </div>
 
     <div id="contact" class="container-fluid">
         <h1 class="text-center vert-center">Contact</h1>
+    </div>
+    <div class="container">
         <br>
-        <h2>We'd love to hear from you</h2>
+        <h3>We'd love to hear from you</h3>
         <br>
-        <h3><strong>SHABR, INC.</strong></h3>
-        <h3>1234 Shabr Road</h3>
-        <h3>Somewhere, OT 80013</h3>
-        <h3>P: (555) 555-1234</h3>
+        <h4><strong>SHABR, INC.</strong></h4>
+        <h4>1234 Shabr Road</h4>
+        <h4>Somewhere, OT 80013</h4>
+        <h4>P: (555) 555-1234</h4>
+    </div>
+
 
 
 </body>
