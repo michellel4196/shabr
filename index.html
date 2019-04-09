@@ -74,6 +74,8 @@
             background: url("img/hot-air-balloon-clipart.png") no-repeat center;
             background-size: 200px;
             padding: 50px;
+            text-align: center;
+            background-color: tan;
 
         }
 
@@ -140,16 +142,15 @@
 
     <div id="context" class="jumbotron">
         <h1 class="display-4"><strong>FUN FOR EVERYONE</strong></h1>
-        <p>Come make a new memory with us. There's nothing else like it.</p>
-        <p>Fun for both adults and kids. All welcome!</p>
-        <p>Afraid of heights? You won't be after you slow-dance with the sky.</p>
+        <p><strong>Come make a new memory with us. There's nothing else like it.</strong></p>
+        <p><strong>Fun for both adults and kids. All welcome!</strong></p>
+        <p><strong>Afraid of heights? You won't be after you slow-dance with the sky.</strong></p>
     </div>
 
-    <div class="container-fluid">
-        <h1 class="text-center vert-center">Info</h1>
-    </div>
     <div id="info" class="container">
-        <br>
+        <div class="container-fluid">
+            <h1 class="text-center vert-center">Info</h1>
+        </div>
         <h3>All the information you'll need</h3>
         <div class="row">
             <div class="col-md-6 col-lg-3">
@@ -175,10 +176,10 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <h1 class="text-center">Gallery</h1>
-    </div>
     <div id="gallery" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid">
+            <h1 class="text-center">Gallery</h1>
+        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="img/balloon-1.jpg">
@@ -210,35 +211,6 @@
     </div>
     <br>
 
-    <!--<div id="testimonials" class="container">-->
-    <!--    <div class="container-fluid">-->
-    <!--        <h1 class="text-center vert-center">Testimonials</h1>-->
-    <!--        <div class="container">-->
-    <!--            <h3>Just a few of our happy customers</h3>-->
-    <!--            <div class="row">-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!"<br> -- Joan H.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR."<br> -- Marsha N.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"Thanks so much for making our experience so perfect. I definitely want to go back again!"<br> -- Linda T.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!"<br> -- Tammy P.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!"<br> -- Ethel E.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-md-4 col-lg-2">-->
-    <!--                    <p class="comment">"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!"<br> -- Mary C.</p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
-
     <div id="testimonials" class="container">
         <h1 class="text-center vert-center">Testimonials</h1>
         <h3>Just a few of our happy customers</h3>
@@ -247,7 +219,6 @@
                 <tr>
                     <th scope="col">Comment</th>
                     <th scope="col">Name</th>
-
                 </tr>
             </thead>
             <tbody>
@@ -292,6 +263,7 @@
             </tbody>
         </table>
     </div>
+
     <div id="contact" class="container-fluid">
         <h1 class="text-center vert-center">Contact</h1>
     </div>
@@ -299,13 +271,24 @@
         <br>
         <h3>We'd love to hear from you</h3>
         <br>
-        <h4><strong>SHABR, INC.</strong></h4>
-        <h4>1234 Shabr Road</h4>
-        <h4>Somewhere, OT 80013</h4>
-        <h4>P: (555) 555-1234</h4>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h4><strong>SHABR, INC.</strong></h4>
+            </li>
+            <li class="list-group-item">
+                <h4>1234 Shabr Road</h4>
+            </li>
+            <li class="list-group-item">
+                <h4>Somewhere, OT 80013</h4>
+            </li>
+            <li class="list-group-item">
+                <h4>P: (555) 555-1234</h4>
+            </li>
+        </ul>
     </div>
+
     <div class="well well-lg"><br><br>
-        <h3><span class="glyphicon glyphicon-phone-alt"></span><strong>Copyright © 2016   |   SHABR</strong></h3>
+        <h3><strong>Copyright © 2016   |   SHABR</strong></h3>
     </div>
 </body>
 
